@@ -2,10 +2,57 @@
 <html lang="en" dir="ltr">
   <head>
     <title>My Hobbies</title>
-    <style>
+    <style>* {
+      box-sizing: border-box;
+    }
     body {
-      background-color:lightblue;
-      margin-right: 500px;
+      font-family: sans-serif;
+    }
+    header {
+      background-color: #0074FF;
+      padding: 30px;
+      text-align:center;
+      font-size: 35px
+      color: Black;
+    }
+    nav {
+      width: 30%;
+      float: left;
+      padding: 15px;
+      height: 300px;
+      background-color: #5A88BF;
+    }
+    nav ul{
+      list-style-type: none;
+      padding: 0;
+    }
+    aside {
+      width: 25%;
+      float: left;
+      padding:15px
+
+    }
+    footer{
+      border: 1px solid Black;
+      padding: 15px;
+    }
+    article {
+float: right;
+padding: 20px;
+width: 70%;
+background-color: lightblue;
+height: 300px;
+}
+    section::after{
+      content: "";
+      display: table;
+      clear: both;
+}
+    footer{
+      background-color: #7AB7FF;
+      padding: 10px;
+      text-align: center;
+      color: black;
     }
     </style>
     <meta charset="utf-8">
@@ -13,46 +60,6 @@
     <meta name="description" content=" A page about the author's hobbies">
     <meta name="keywords" content="childpages, meta data, paragraph, Images">
     <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-    <style>
-        .div {border: thin dotted Black;}
-        * {
-          box-sizing: border-box;
-        }
-        header {
-          border: 1px solid Black;
-        }
-        nav {
-          width: 25%;
-          float: left;
-          padding: 15px;
-          border: 1px solid Black;
-        }
-        section {
-          width: 50%;
-          float: right;
-          padding: 15px;
-          border: 1px solid Black;
-        }
-        aside {
-          width: 25%;
-          float: left;
-          padding:15px
-          border: 1px solid Black;
-        }
-        footer{
-          border: 1px solid Black;
-          padding: 15px;
-        }
-        article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: lightblue;
-  height: 300px;
-}
-
-        </style>
-
       </head>
       <body>
           <header>
@@ -63,17 +70,15 @@
           <nav>
             <ul>
               <h2>Computer Parts</h2>
-            </ul>
-          </nav>
-
-
-          <aside><p style="color:Black;">Hi, welcome to the Hobby page, In this page you will learn about one of my favorite things to do!</p>
+          <p style="color:Black;">Hi, welcome to the Hobby page, In this page you will learn about one of my favorite things to do!</p>
           <p style="color:Black;">I love computers, I love building them and benchmarking them, I even have a goal of building my own Pc this summer(2022).</p>
           <p style="color:Black;">I would like to share my current computer parts, and the parts I plan to upgrade to</p>
-          </aside>
-          <article><img src=" https://topnewreview.com/wp-content/uploads/2015/06/wpid-Intel2BCore2Bi5-4690K.jpg" alt="../Images/Core i5 pic.jpg" title="Core i5-4690k" style="max-width:25%;height:auto"> What you are looking at here(left) is my processor which is an <b>Intel Core i5-4690k</b> and below is my Graphics card, an <b>Nvidia Geforce GTX 760.</b>
+            </ul>
+          </nav>
+          <article>
+          <img src=" https://topnewreview.com/wp-content/uploads/2015/06/wpid-Intel2BCore2Bi5-4690K.jpg" alt="../Images/Core i5 pic.jpg" title="Core i5-4690k" style="max-width:25%;height:auto"> What you are looking at here(left) is my processor which is an <b>Intel Core i5-4690k</b> and below is my Graphics card, an <b>Nvidia Geforce GTX 760.</b>
           <img src="https://tpucdn.com/gpu-specs/images/b/2120-front.jpg" alt="../Images/Twin Frozr.jpg" title="Gtx 760" style="max-width:25%;height:auto">
-        </article>
+          </article>
 
 
         </section>
