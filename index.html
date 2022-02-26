@@ -3,9 +3,52 @@
   <head>
     <title>Who am I ?</title>
     <style>
+    *{
+      box-sizing: border-box;
+    }
     body {
-      background-color:lightblue;
-      margin-right: 500px;
+      background-color:#FFFF8F;
+      font-family: sans-serif;
+    }
+    header {
+      background-color: #0074FF;
+      padding:  30px;
+      text-align:center;
+      font-size: 35px
+      color: Black;
+    }
+    nav {
+      width: 80%;
+      float: left;
+      padding: 15px;
+      height: 3000px;
+      background-color: #5A88BF;
+    }
+    nav ul{
+      list-style-type: none;
+      padding: 0;
+    }
+    footer{
+      border: 1px solid Black;
+      padding: 15px;
+    }
+    article{
+      float: right;
+      padding: 20px;
+      width: 20%;
+      background-color: lightblue;
+      height: 3000px;
+    }
+    section::after{
+      content: "";
+      display: table;
+      clear: both;
+}
+    footer{
+      background-color: #7AB7FF;
+      padding: 10px;
+      text-align: center;
+      color: black;
     }
 
     </style>
@@ -17,27 +60,32 @@
 
   </head>
   <body>
-    <div><h3 style ="color:DodgerBlue;">YO, whats good dudes</h3></div>
+
       <header>
-        <h1 style="font-size : 5.5vw"><h1 style="color:White">All about me!</h1></h1>
-        <h1 style="font-size : 3.5vw"><h1 style="color:White">Introductory page</h1></h1>
+        <h1 style="font-size : 5.5vw"><h1 style="color:Black">All about me!</h1></h1>
+        <h1 style="font-size : 3.5vw"><h1 style="color:Black">Introductory page</h1></h1>
       </header>
       <section>
-              <h3></h3>
-              <br> <!-- <br>adds one line of space -->
-              <!-- img is self closing -->
-      </section>
+          <nav>
       <p style="color:Black;">Hi, my name is Teni, and this website is just an Intoduction of myself.</p>
-<p style="color:Black;">I was born in the United Sates, but I actually grew up in Nigeria. About six years ago, I moved to Canada. Recently, I have taken an interest in computer technology, which influenced me to take a computer science course for grade 10. I hope I can demonstrate some of my new skills on this website!</p>
+      <p style="color:Black;">I was born in the United Sates, but I actually grew up in Nigeria. About six years ago, I moved to Canada. Recently, I have taken an interest in computer technology, which influenced me to take a computer science course for grade 10. I hope I can demonstrate some of my new skills on this website!</p>
+  <p>
 <ol>
-<li>This Page lists some of my Hobbies, <a href="childpages/Hobbies.html" target="_blank">Click here</li>
+  <li>This Page lists some of my Hobbies, <a href="childpages/Hobbies.html" target="_blank">Click here</li>
 </ol>
+  </p>
+         </nav>
+         <article>
+
+         </article>
+     </section>
 <footer>
     <blockquote cite="https://www.brainyquote.com/quotes/john_f_kennedy_110084">
-        <p>
+        <!-- Date Accessed 20220226-->
+          <p>
           <strong><i>"man is still the most extraordinary computer of all"</i></strong>
           <em><a href="https://www.brainyquote.com/quotes/john_f_kennedy_110084" target="_blank">John F Kennedy</a></em>
-        </p>
+          </p>
       </blockquote>
         <p>&copy Teni Eleyinmi, powered by Goruno-Sencho in Github</p>
 </footer>
